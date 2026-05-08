@@ -1,0 +1,22 @@
+name = "kofi-scraper"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["* * * * *"]
+
+[[kv_namespaces]]
+binding = "SCRAPER_STATE"
+id = "f024ae5b90e04d629811cdfbc8c100ed"
+preview_id = "5664a03ef98e4b29bb75c531a92831ae"
+
+[vars]
+WP_LOGIN_URL = "https://is.kofikofi.cz/index.php"
+WP_TARGET_URL = "https://is.kofikofi.cz/index.php"
+
+[observability]
+enabled = true
+
+[observability.logs]
+invocation_logs = true

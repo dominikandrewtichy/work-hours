@@ -1,0 +1,28 @@
+{
+  "name": "kofi-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominikandrewtichy/kofi-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dominikandrewtichy/kofi-scraper/issues"
+  },
+  "homepage": "https://github.com/dominikandrewtichy/kofi-scraper#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260317.1",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.76.0"
+  }
+}
